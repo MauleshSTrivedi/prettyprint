@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>prettyprint</name>
+  <version>0.0.0</version>
+  <description>Pretty print catkin package wrapper</description>
+  <maintainer email="shaun.edwards@gmail.com">Shaun Edwards</maintainer>
+  <license>Boost Software License</license>
+  <author >Shaun Edwards</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
