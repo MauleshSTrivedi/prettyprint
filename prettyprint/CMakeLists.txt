@@ -4,7 +4,7 @@ find_package(catkin REQUIRED)
 
 catkin_package(INCLUDE_DIRS include)
 
-install(DIRECTORY include/cxx-prettyprint/
+install(DIRECTORY include/${PROJECT_NAME}/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-  FILES_MATCHING PATTERN "*.h"
+  FILES_MATCHING PATTERN "*.hpp"
 )
